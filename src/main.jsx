@@ -5,6 +5,6 @@ import { Card } from './components/Card.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Card />
+    <Card title='Titulo' text='Texto' buttonText='Boton' />
   </StrictMode>,
 )
